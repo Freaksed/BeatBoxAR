@@ -34,9 +34,9 @@ public class BeatDetector : MonoBehaviour
     private void Update()
     {
         _gap += Time.deltaTime;
-        if (_currentDirection == Direction.Down && transform.eulerAngles.x < _lastPitch-30)
+        if (_currentDirection == Direction.Down && transform.eulerAngles.x < _lastPitch-1)
         {
-            Debug.Log("Bottom");
+//            Debug.Log("Bottom");
             _currentDirection = Direction.Up;
             _times.Add(_gap);
             _gap = 0;
@@ -45,9 +45,9 @@ public class BeatDetector : MonoBehaviour
             _bpm = 60/(_times.Sum(t=>t)/_times.Count);
         }
 
-        if (_currentDirection == Direction.Up && transform.eulerAngles.x > _lastPitch + 30)
+        if (_currentDirection == Direction.Up && transform.eulerAngles.x > _lastPitch + 1)
         {
-            Debug.Log("TOP");
+//            Debug.Log("TOP");
             _currentDirection = Direction.Down;
         }
         _lastPitch = transform.eulerAngles.x;
