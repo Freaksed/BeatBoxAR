@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\benva\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\benva\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_BeatBoxAR.-393564248.00" t="ExcludeRecursive" />
+    <e p="C:\Users\benva\wkspaces\BeatBoxAR" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Bose" t="Include">
+          <e p="Wearable" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="Documentation" t="Include">
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="ExampleApp" t="Include">
+              <e p="Demos" t="Include">
+                <e p="Advanced" t="Include">
+                  <e p="Art" t="Include">
+                    <e p="Shapes" t="Include">
+                      <e p="Meshes" t="Include">
+                        <e p="Materials" t="Include">
+                          <e p="UnlitDistanceFade.shader" t="Include" />
+                        </e>
+                      </e>
+                    </e>
+                  </e>
+                  <e p="Scripts" t="Include">
+                    <e p="AdvancedDemoController.cs" t="Include" />
+                    <e p="AdvancedDemoUIPanel.cs" t="Include" />
+                    <e p="CalibrationUIPanel.cs" t="Include" />
+                    <e p="CameraController.cs" t="Include" />
+                    <e p="MouseButtonRecognizer.cs" t="Include" />
+                    <e p="ScaleUncertaintyCone.cs" t="Include" />
+                    <e p="TargetController.cs" t="Include" />
+                    <e p="TargetSFX.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Basic" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="BasicDemoUIPanel.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Gesture" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="GestureDemoUIPanel.cs" t="Include" />
+                    <e p="GestureDisplay.cs" t="Include" />
+                    <e p="GestureIconFactory.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="AppRoot.cs" t="Include" />
+                <e p="DontDestroyOnLoad.cs" t="Include" />
+                <e p="Editor" t="Include">
+                  <e p="GestureIconFactoryInspector.cs" t="Include" />
+                </e>
+                <e p="InfoUIPanel.cs" t="Include" />
+                <e p="LoadingUIPanel.cs" t="Include" />
+                <e p="MainMenuUIPanel.cs" t="Include" />
+                <e p="ReturnToMainMenuOnDisconnect.cs" t="Include" />
+                <e p="VersionUIPanel.cs" t="Include" />
+                <e p="WearableDemoConstants.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Modules" t="Include">
+              <e p="Connection" t="Include">
+                <e p="Fonts" t="Include">
+                  <e p="Palanquin" t="Include">
+                    <e p="OFL.txt" t="Include" />
+                  </e>
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="Connection" t="Include">
+                    <e p="ConnectingWearableConnectDisplay.cs" t="Include" />
+                    <e p="FailedWearableConnectDisplay.cs" t="Include" />
+                    <e p="FirmwareWearableConnectDisplay.cs" t="Include" />
+                    <e p="ISelectionController.cs" t="Include" />
+                    <e p="PermissionRequestedConnectDisplay.cs" t="Include" />
+                    <e p="SearchingWearableConnectDisplay.cs" t="Include" />
+                    <e p="SecurePairingWearableConnectDisplay.cs" t="Include" />
+                    <e p="ServiceRequestedConnectDisplay.cs" t="Include" />
+                    <e p="SuccessfulWearableConnectDisplay.cs" t="Include" />
+                    <e p="WarningWearableConnectDisplay.cs" t="Include" />
+                    <e p="WearableConnectDisplayBase.cs" t="Include" />
+                    <e p="WearableConnectUIPanel.cs" t="Include" />
+                    <e p="WearableConnectUIResult.cs" t="Include" />
+                    <e p="WearableDeviceDisplayButton.cs" t="Include" />
+                    <e p="WearableProductImageFactory.cs" t="Include" />
+                  </e>
+                  <e p="Editor" t="Include">
+                    <e p="Inspectors" t="Include">
+                      <e p="WearableConnectUIPanelInspector.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="UI" t="Include">
+                    <e p="ConcentricLoaderUI.cs" t="Include" />
+                    <e p="SensorSuspensionUIPanel.cs" t="Include" />
+                    <e p="SignalStrengthIconFactory.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Debugging" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Debugging" t="Include">
+                    <e p="DataMetrics.cs" t="Include" />
+                    <e p="DebuggingConstants.cs" t="Include" />
+                  </e>
+                  <e p="Editor" t="Include">
+                    <e p="Inspectors" t="Include">
+                      <e p="AutoConfigureHorizontalGridLayoutInspector.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="Engine" t="Include">
+                    <e p="AutoConfigureHorizontalGridLayout.cs" t="Include" />
+                  </e>
+                  <e p="Styling" t="Include">
+                    <e p="WearableUIColorPalette.cs" t="Include" />
+                    <e p="WearableUIColorStyleId.cs" t="Include" />
+                  </e>
+                  <e p="UI" t="Include">
+                    <e p="DataDebugUIWindow.cs" t="Include" />
+                    <e p="DebugUIControlBase.cs" t="Include" />
+                    <e p="DebugUIPanel.cs" t="Include" />
+                    <e p="DeviceInfoDebugUIControl.cs" t="Include" />
+                    <e p="DraggableUIButton.cs" t="Include" />
+                    <e p="DraggableUIButtonSnapArea.cs" t="Include" />
+                    <e p="GestureDataDebugUIControl.cs" t="Include" />
+                    <e p="GestureDebugUIWindow.cs" t="Include" />
+                    <e p="GestureToggleDebugUIControl.cs" t="Include" />
+                    <e p="RotationDataToggleDebugUIControl.cs" t="Include" />
+                    <e p="SensorRateDebugUIWindow.cs" t="Include" />
+                    <e p="SensorRateToggleDebugUIControl.cs" t="Include" />
+                    <e p="SensorToggleDebugUIControl.cs" t="Include" />
+                    <e p="SensorUpdateIntervalLabelFactory.cs" t="Include" />
+                    <e p="TimingDebugUIWindow.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="ModelLoader" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="WearableModelLoader.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Shared" t="Include">
+                <e p="Fonts" t="Include">
+                  <e p="Nova_Mono" t="Include">
+                    <e p="OFL.txt" t="Include" />
+                  </e>
+                  <e p="Saira_Condensed" t="Include">
+                    <e p="OFL.txt" t="Include" />
+                  </e>
+                  <e p="Titillium_Web" t="Include">
+                    <e p="OFL.txt" t="Include" />
+                  </e>
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="Inspectors" t="Include">
+                      <e p="SafeAreaHelperInspector.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="Engine" t="Include">
+                    <e p="AudioControl.cs" t="Include" />
+                    <e p="NonDrawingGraphic.cs" t="Include" />
+                    <e p="SafeAreaHelper.cs" t="Include" />
+                    <e p="Wait.cs" t="Include" />
+                  </e>
+                  <e p="UI" t="Include">
+                    <e p="ButtonEffectBase.cs" t="Include" />
+                    <e p="ButtonScaleEffect.cs" t="Include" />
+                    <e p="ButtonSizeEffect.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Components" t="Include">
+                <e p="GestureDetector.cs" t="Include" />
+                <e p="RotationMatcher.cs" t="Include" />
+              </e>
+              <e p="Editor" t="Include">
+                <e p="AssemblyInfo.cs" t="Include" />
+                <e p="Build Processors" t="Include">
+                  <e p="AndroidPreBuildProcessor.cs" t="Include" />
+                  <e p="XcodePostBuildProcessor.cs" t="Include" />
+                  <e p="XcodePreBuildProcessor.cs" t="Include" />
+                </e>
+                <e p="DeveloperAboutWindow.cs" t="Include" />
+                <e p="DeveloperMenuItems.cs" t="Include" />
+                <e p="Inspectors" t="Include">
+                  <e p="AppIntentProfileInspector.cs" t="Include" />
+                  <e p="DynamicDeviceInfoDrawer.cs" t="Include" />
+                  <e p="GestureDetectorInspector.cs" t="Include" />
+                  <e p="RotationMatcherInspector.cs" t="Include" />
+                  <e p="WearableBluetoothProviderDrawer.cs" t="Include" />
+                  <e p="WearableControlInspector.cs" t="Include" />
+                  <e p="WearableDebugProviderDrawer.cs" t="Include" />
+                  <e p="WearableDeviceConfigDrawer.cs" t="Include" />
+                  <e p="WearableGestureConfigDrawer.cs" t="Include" />
+                  <e p="WearableRequirementInspector.cs" t="Include" />
+                  <e p="WearableSensorConfigDrawer.cs" t="Include" />
+                  <e p="WearableUSBProviderDrawer.cs" t="Include" />
+                </e>
+                <e p="Preferences" t="Include">
+                  <e p="PreferencesEditorWindow.cs" t="Include" />
+                </e>
+                <e p="Tools" t="Include">
+                  <e p="AssetDatabaseTools.cs" t="Include" />
+                  <e p="BuildTools.cs" t="Include" />
+                  <e p="GUILayoutTools.cs" t="Include" />
+                  <e p="ProjectTools.cs" t="Include" />
+                  <e p="ReflectionTools.cs" t="Include" />
+                </e>
+                <e p="WearableEditorConstants.cs" t="Include" />
+                <e p="WearablePluginConstants.cs" t="Include" />
+                <e p="WearablePluginImporter.cs" t="Include" />
+              </e>
+              <e p="Engine" t="Include">
+                <e p="Singleton.cs" t="Include" />
+                <e p="UnityUpdateMode.cs" t="Include" />
+                <e p="WaitForSecondsRealtimeCacheable.cs" t="Include" />
+              </e>
+              <e p="Extensions" t="Include">
+                <e p="ArrayExtensions.cs" t="Include" />
+                <e p="QuaternionExtensions.cs" t="Include" />
+                <e p="RectTransformExtensions.cs" t="Include" />
+                <e p="SensorUpdateIntervalExtensions.cs" t="Include" />
+                <e p="StringExtensions.cs" t="Include" />
+                <e p="TransformExtensions.cs" t="Include" />
+              </e>
+              <e p="Hardware" t="Include">
+                <e p="ActiveNoiseReductionMode.cs" t="Include" />
+                <e p="AlertStyle.cs" t="Include" />
+                <e p="AppIntentProfile.cs" t="Include" />
+                <e p="BoseUpdateIcon.cs" t="Include" />
+                <e p="ConfigStatus.cs" t="Include" />
+                <e p="ConnectionStatus.cs" t="Include" />
+                <e p="Device.cs" t="Include" />
+                <e p="DeviceConnectionInfo.cs" t="Include" />
+                <e p="DeviceStatus.cs" t="Include" />
+                <e p="DeviceStatusFlags.cs" t="Include" />
+                <e p="DynamicDeviceInfo.cs" t="Include" />
+                <e p="FirmwareUpdateAlertOption.cs" t="Include" />
+                <e p="FirmwareUpdateInformation.cs" t="Include" />
+                <e p="FramesVariantId.cs" t="Include" />
+                <e p="GestureData.cs" t="Include" />
+                <e p="GestureFlags.cs" t="Include" />
+                <e p="GestureId.cs" t="Include" />
+                <e p="GestureIdExtensions.cs" t="Include" />
+                <e p="IntentValidationStatus.cs" t="Include" />
+                <e p="LogLevel.cs" t="Include" />
+                <e p="NoiseCancellingHeadphones700VariantId.cs" t="Include" />
+                <e p="OSPermission.cs" t="Include" />
+                <e p="OSPermissionFlags.cs" t="Include" />
+                <e p="OSService.cs" t="Include" />
+                <e p="OSServiceFlags.cs" t="Include" />
+                <e p="ProductId.cs" t="Include" />
+                <e p="ProductType.cs" t="Include" />
+                <e p="QuietComfort35TwoVariantId.cs" t="Include" />
+                <e p="Result.cs" t="Include" />
+                <e p="SensorAccuracy.cs" t="Include" />
+                <e p="SensorFlags.cs" t="Include" />
+                <e p="SensorFrame.cs" t="Include" />
+                <e p="SensorId.cs" t="Include" />
+                <e p="SensorQuaternion.cs" t="Include" />
+                <e p="SensorServiceSuspendedReason.cs" t="Include" />
+                <e p="SensorUpdateInterval.cs" t="Include" />
+                <e p="SensorVector3.cs" t="Include" />
+                <e p="SignalStrength.cs" t="Include" />
+                <e p="VariantType.cs" t="Include" />
+              </e>
+              <e p="PlatformTools.cs" t="Include" />
+              <e p="Providers" t="Include">
+                <e p="BluetoothProviderPlatforms" t="Include">
+                  <e p="IWearableBluetoothProviderPlatform.cs" t="Include" />
+                  <e p="WearableBluetoothProvider_Android.cs" t="Include" />
+                  <e p="WearableBluetoothProvider_Editor.cs" t="Include" />
+                  <e p="WearableBluetoothProvider_iOS.cs" t="Include" />
+                </e>
+                <e p="ProviderId.cs" t="Include" />
+                <e p="WearableBluetoothProvider.cs" t="Include" />
+                <e p="WearableDebugProvider.cs" t="Include" />
+                <e p="WearableProviderBase.cs" t="Include" />
+                <e p="WearableUSBProvider.cs" t="Include" />
+              </e>
+              <e p="Requirements" t="Include">
+                <e p="WearableDeviceConfig.cs" t="Include" />
+                <e p="WearableRequirement.cs" t="Include" />
+              </e>
+              <e p="WearableConstants.cs" t="Include" />
+              <e p="WearableControl.cs" t="Include" />
+              <e p="WearableTools.cs" t="Include" />
+              <e p="WearableVersion.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="src" t="Include">
+          <e p="BandsInTownAPI.cs" t="Include" />
+        </e>
+      </e>
+      <e p="BeatBoxAR.sln" t="IncludeFlat" />
+      <e p="Bose.Wearable.Connection.Editor.csproj" t="IncludeRecursive" />
+      <e p="Bose.Wearable.csproj" t="IncludeRecursive" />
+      <e p="Bose.Wearable.Debugging.Editor.csproj" t="IncludeRecursive" />
+      <e p="Bose.Wearable.Editor.csproj" t="IncludeRecursive" />
+      <e p="Bose.Wearable.Examples.Editor.csproj" t="IncludeRecursive" />
+      <e p="Bose.Wearable.Shared.Editor.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
