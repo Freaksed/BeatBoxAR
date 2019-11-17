@@ -3,10 +3,12 @@
 --- !u!687078895 &4343727234628468602
 SpriteAtlas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: ConnectionAtlas
   m_EditorData:
+    serializedVersion: 2
     textureSettings:
       serializedVersion: 2
       anisoLevel: 1
@@ -18,8 +20,20 @@ SpriteAtlas:
       readable: 0
       crunchedCompression: 0
       sRGB: 1
-    platformSettings: []
-    packingParameters:
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
       serializedVersion: 2
       padding: 4
       blockOffset: 1
@@ -31,32 +45,35 @@ SpriteAtlas:
     - {fileID: 102900000, guid: bbc9ef7005a2541908b364d02268a412, type: 3}
     totalSpriteSurfaceArea: 967915
     bindAsDefault: 1
+    storedHash:
+      serializedVersion: 2
+      Hash: 00000000000000000000000000000000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 9dec3a8183f274315a58970652e3384b, type: 3}
-  - {fileID: 21300000, guid: c1a21a2428d7d43b4b7202021b764951, type: 3}
-  - {fileID: 21300000, guid: c70eb13c1caca4dd99e1195c9fbeb970, type: 3}
-  - {fileID: 21300000, guid: 994fdecc6e7714704bc67b8c247791a6, type: 3}
   - {fileID: 21300000, guid: 28540530e07144f588d90723fb07493e, type: 3}
+  - {fileID: 21300000, guid: e8bb3ad0b7fb9bb408199cfc5b6fc89e, type: 3}
+  - {fileID: 21300000, guid: 9dec3a8183f274315a58970652e3384b, type: 3}
+  - {fileID: 21300000, guid: 1a270743d1ea549c28d858af04a4db53, type: 3}
+  - {fileID: 21300000, guid: c1a21a2428d7d43b4b7202021b764951, type: 3}
+  - {fileID: 21300000, guid: f7282bb4a8fa2449f8221389ae22c6f5, type: 3}
   - {fileID: 21300000, guid: 298a74f455dd1a34ab2b43c871578f4f, type: 3}
   - {fileID: 21300000, guid: d95eb8a54a320ed44a4508e504d89581, type: 3}
   - {fileID: 21300000, guid: 915529d6f97ad0640b64e6c1fcc820eb, type: 3}
+  - {fileID: 21300000, guid: c70eb13c1caca4dd99e1195c9fbeb970, type: 3}
   - {fileID: 21300000, guid: cedb595c37b4cb841b1e0529767d1638, type: 3}
-  - {fileID: 21300000, guid: f7282bb4a8fa2449f8221389ae22c6f5, type: 3}
-  - {fileID: 21300000, guid: e8bb3ad0b7fb9bb408199cfc5b6fc89e, type: 3}
-  - {fileID: 21300000, guid: 1a270743d1ea549c28d858af04a4db53, type: 3}
+  - {fileID: 21300000, guid: 994fdecc6e7714704bc67b8c247791a6, type: 3}
   m_PackedSpriteNamesToIndex:
-  - loading_full_circle_filled
-  - icon_success
-  - icon_failure
-  - annotation_circle
   - game_select_mask
+  - icon_close
+  - loading_full_circle_filled
+  - list_line
+  - icon_success
+  - icon_exclamation
   - icon_signal_four
   - icon_signal_three
   - icon_signal_one
+  - icon_failure
   - icon_signal_two
-  - icon_exclamation
-  - icon_close
-  - list_line
+  - annotation_circle
   m_Tag: ConnectionAtlas
   m_IsVariant: 0

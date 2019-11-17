@@ -3,10 +3,12 @@
 --- !u!687078895 &4343727234628468602
 SpriteAtlas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: SharedUIAtlas
   m_EditorData:
+    serializedVersion: 2
     textureSettings:
       serializedVersion: 2
       anisoLevel: 1
@@ -18,8 +20,20 @@ SpriteAtlas:
       readable: 0
       crunchedCompression: 0
       sRGB: 1
-    platformSettings: []
-    packingParameters:
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
       serializedVersion: 2
       padding: 8
       blockOffset: 1
@@ -31,26 +45,29 @@ SpriteAtlas:
     - {fileID: 102900000, guid: 3936eeb97fa00e54996c978edac672e0, type: 3}
     totalSpriteSurfaceArea: 622848
     bindAsDefault: 1
+    storedHash:
+      serializedVersion: 2
+      Hash: 00000000000000000000000000000000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 440187ed83e524d13bd279b3c76f4195, type: 3}
-  - {fileID: 21300000, guid: f46bca0fad4be403bab1ac304d8c6fb9, type: 3}
   - {fileID: 21300000, guid: e31e3d85c36e9ea42a95043362c0dfdd, type: 3}
-  - {fileID: 21300000, guid: 779266fa4cc02b346a7fbdee71517158, type: 3}
-  - {fileID: 21300000, guid: 4cd06d5b331a0174e8bfe4d050849fc0, type: 3}
-  - {fileID: 21300000, guid: 2db0c7fecedf65f47a64e8cb0dccb1b9, type: 3}
-  - {fileID: 21300000, guid: 42c9bc2b71bd77e4ba1b080b9c1ce9c5, type: 3}
-  - {fileID: 21300000, guid: 0a72eeee4457b114c8136d639f0e23f6, type: 3}
   - {fileID: 21300000, guid: a6b06cd98a09945399a66e6870c3c5e4, type: 3}
+  - {fileID: 21300000, guid: 779266fa4cc02b346a7fbdee71517158, type: 3}
+  - {fileID: 21300000, guid: 42c9bc2b71bd77e4ba1b080b9c1ce9c5, type: 3}
+  - {fileID: 21300000, guid: 4cd06d5b331a0174e8bfe4d050849fc0, type: 3}
+  - {fileID: 21300000, guid: 440187ed83e524d13bd279b3c76f4195, type: 3}
+  - {fileID: 21300000, guid: 0a72eeee4457b114c8136d639f0e23f6, type: 3}
+  - {fileID: 21300000, guid: 2db0c7fecedf65f47a64e8cb0dccb1b9, type: 3}
+  - {fileID: 21300000, guid: f46bca0fad4be403bab1ac304d8c6fb9, type: 3}
   m_PackedSpriteNamesToIndex:
-  - loading_fade_white
-  - icon_background
   - scroll_fade
-  - white_border
-  - white_flat
-  - scroll_gradient
-  - back_arrow
-  - x
   - background_bar
+  - white_border
+  - back_arrow
+  - white_flat
+  - loading_fade_white
+  - x
+  - scroll_gradient
+  - icon_background
   m_Tag: SharedUIAtlas
   m_IsVariant: 0

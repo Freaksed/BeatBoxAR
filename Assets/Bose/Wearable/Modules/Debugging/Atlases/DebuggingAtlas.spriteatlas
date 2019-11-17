@@ -3,10 +3,12 @@
 --- !u!687078895 &4343727234628468602
 SpriteAtlas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: DebuggingAtlas
   m_EditorData:
+    serializedVersion: 2
     textureSettings:
       serializedVersion: 2
       anisoLevel: 1
@@ -18,8 +20,20 @@ SpriteAtlas:
       readable: 0
       crunchedCompression: 0
       sRGB: 1
-    platformSettings: []
-    packingParameters:
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
       serializedVersion: 2
       padding: 4
       blockOffset: 1
@@ -31,16 +45,19 @@ SpriteAtlas:
     - {fileID: 102900000, guid: 4be6c49cf7e44904f98d74ca82a8d6ae, type: 3}
     totalSpriteSurfaceArea: 65536
     bindAsDefault: 1
+    storedHash:
+      serializedVersion: 2
+      Hash: 00000000000000000000000000000000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 89261903e8c590b46b6b7705bc83ada2, type: 3}
   - {fileID: 21300000, guid: 4fe3f9e70fe7442b181242407a9a7e88, type: 3}
   - {fileID: 21300000, guid: 483f3b181d3edc44084be0ede0b205a5, type: 3}
   - {fileID: 21300000, guid: 1cb5bc0ca705e0441af9d87f59abc2e1, type: 3}
-  - {fileID: 21300000, guid: 89261903e8c590b46b6b7705bc83ada2, type: 3}
   m_PackedSpriteNamesToIndex:
+  - debug_panel_icon
   - drag_area_fade
   - header_gradient
   - white_gradient
-  - debug_panel_icon
   m_Tag: DebuggingAtlas
   m_IsVariant: 0

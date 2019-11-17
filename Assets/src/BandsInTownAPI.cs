@@ -1,22 +1,51 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using System;
+using System.Collections;
+using Newtonsoft.Json.Linq;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class BandsInTownAPI : MonoBehaviour
 {
-    private const string APIKey = "nTG4tbSXpIaniCHlJ62q06GzIpROk6qh56EiK7N1";
+    private const string APIKey = "capitol201939ad4ebef3caf1ac2914b0eb8203c030";
     private const string  URI = "https://search.bandsintown.com/search";
 
-    private void SendRequest()
+    private void Start()
+    {
+        FormRequest();
+    }
+
+    private void FormRequest()
     {
         float latitude = 32, longitude = -117;
 
-        var query = new JObject();
-        query.Add("location", "region");
-        query.Add("region", new JObject
+        var query = new JObject
         {
-            new JObject("latitude", latitude),
-            new JObject("longitude", longitude),
-            new JObject("radius", 50)
-        });
+            ["app_id"] = APIKey,
+            ["location"] = "region",
+            ["region"] = new JObject {["latitude"] = latitude, ["longitude"] = longitude, ["radius"] = 50}
+        };
+        StartCoroutine(SendRequest(query));
+    }
+
+    private IEnumerator SendRequest(JObject query)
+    {
+        using (UnityWebRequest request = new UnityWebRequest($"URI?{query}"))
+        {
+            request.method = "GET";
+
+            yield return request.SendWebRequest();
+            string[] pages = URI.Split('/');
+            int page = pages.Length - 1;
+
+            if (request.isNetworkError)
+            {
+                Debug.Log(pages[page] + ": Error: " + request.error);
+            }
+            else
+            {
+                Debug.Log(pages[page] + ":\nReceived: " + request.downloadHandler.text);
+            }
+        }
+        yield return null;
     }
 }
